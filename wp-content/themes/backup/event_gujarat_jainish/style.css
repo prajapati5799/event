@@ -1,0 +1,49 @@
+/*
+ Theme Name:   Gujarat Event
+ Theme URI:    https://xyz.com/
+ Description:  A child theme of event management.
+ Author:       Jayesh Chopda
+ Author URI:   https://xyz.com
+ Template:     twentytwenty
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@import url("../twentytwenty/style.css");
+body {
+  background: #ffffff;
+}
+header#site-header, #site-footer{
+    background: #f3faff;
+}
+.page-main {
+    padding: 50px 0 50px 0;
+}
+.front-page select {
+    height: 31px;
+}
+.front-page input[type="text"] {
+    height: 20px;
+    margin: 0;
+}
+.front-page a#search_event, .front-page #resetFilter {
+    background-color: #cd2653;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 700;
+}
+.front-page .form-group {
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.org-label label {
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 0px 15px 4px 0px;
